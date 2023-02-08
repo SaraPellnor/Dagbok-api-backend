@@ -2,7 +2,11 @@ const express = require("express")
 const app = express()
 const mongoose = require("mongoose")
 
+const { diaryRoute } = require("./rsc/diary/diary.router")
+
 app.use = express.json()
+
+app.use("/diary", diaryRoute)
 
 async function init() {
     try {

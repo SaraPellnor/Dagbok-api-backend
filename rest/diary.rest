@@ -1,0 +1,11 @@
+GET http://localhost:3000/diary
+
+###
+
+POST http://localhost:3000/diary
+Content-Type: "application/json"
+
+{
+    "title": "Day 1",
+    "body": "Today has been a beautiful day!"
+    }
