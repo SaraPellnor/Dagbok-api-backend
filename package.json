@@ -1,0 +1,24 @@
+{
+  "name": "dagbok-api-frontend",
+  "version": "1.0.0",
+  "description": "School project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraPellnor/Dagbok-api-frontend.git"
+  },
+  "author": "Sara och Linda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraPellnor/Dagbok-api-frontend/issues"
+  },
+  "homepage": "https://github.com/SaraPellnor/Dagbok-api-frontend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
