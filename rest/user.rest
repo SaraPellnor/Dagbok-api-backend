@@ -2,6 +2,10 @@ GET http://localhost:3000/user
 
 ###
 
+GET http://localhost:3000/user/63ea41945e038ac4a817538d
+
+###
+
 POST http://localhost:3000/user/register
 Content-Type: application/json
 
@@ -17,7 +21,7 @@ POST http://localhost:3000/user/logIn
 Content-Type: application/json
 
 {
-    "username": "linda",
+    "username": "sara",
     "password": "1234"
 }
 
@@ -25,10 +29,5 @@ Content-Type: application/json
 
 
 POST http://localhost:3000/user/logOut
-Content-Type: application/json
-
-{
-    "username": "linda"
-}
 
 ###
